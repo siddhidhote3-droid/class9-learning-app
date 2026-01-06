@@ -3,197 +3,240 @@
 <head>
   <meta charset="UTF-8">
   <title>Class 9 Notes</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-<header>
-  <h1>Class 9 Notes</h1>
-  <p>State Board | Detailed Theory & Formulas</p>
+<header class="hero">
+  <h1>Class <span>9</span> Notes</h1>
+  <p>State Board • Detailed Theory • Formulas</p>
 </header>
 
-<main>
+<main class="container">
 
-<!-- ================= LESSON BUTTONS ================= -->
+  <!-- ================= SCIENCE BUTTONS ================= -->
+  <h2 class="section-title">🔬 Science Lessons</h2>
 
-<h2 class="section-title">🔬 Science Lessons</h2>
+  <div class="card-grid">
+    <button class="card" onclick="showLesson('motion')">Laws of Motion</button>
+    <button class="card" onclick="showLesson('energy')">Work & Energy</button>
+    <button class="card" onclick="showLesson('current')">Current Flow</button>
+    <button class="card" onclick="showLesson('matter')">Measurement of Matter</button>
+    <button class="card" onclick="showLesson('acids')">Acids, Bases & Salts</button>
+    <button class="card" onclick="showLesson('plants')">Classification of Plants</button>
+    <button class="card" onclick="showLesson('ecosystem')">Energy Flow in Ecosystem</button>
+    <button class="card" onclick="showLesson('microbes')">Useful & Harmful Microbes</button>
+    <button class="card" onclick="showLesson('environment')">Environmental Science</button>
+    <button class="card" onclick="showLesson('light')">Reflection of Light</button>
+    <button class="card" onclick="showLesson('sound')">Study of Sound</button>
+    <button class="card" onclick="showLesson('life')">Life Processes</button>
+    <button class="card" onclick="showLesson('heredity')">Heredity & Variations</button>
+    <button class="card" onclick="showLesson('biotech')">Biotechnology</button>
+    <button class="card" onclick="showLesson('space')">Space Telescope</button>
+  </div>
 
-<div class="card-grid">
-  <a href="#motion" class="card">Laws of Motion</a>
-  <a href="#energy" class="card">Work & Energy</a>
-  <a href="#current" class="card">Current Flow</a>
-  <a href="#matter" class="card">Measurement of Matter</a>
-  <a href="#acids" class="card">Acids, Bases & Salts</a>
-  <a href="#plants" class="card">Classification of Plants</a>
-  <a href="#ecosystem" class="card">Energy Flow</a>
-  <a href="#microbes" class="card">Microbes</a>
-  <a href="#environment" class="card">Environment</a>
-  <a href="#light" class="card">Reflection of Light</a>
-  <a href="#sound" class="card">Sound</a>
-  <a href="#life" class="card">Life Processes</a>
-  <a href="#heredity" class="card">Heredity</a>
-  <a href="#bio" class="card">Biotechnology</a>
-  <a href="#space" class="card">Space Telescope</a>
-</div>
+  <!-- ================= SCIENCE CONTENT ================= -->
 
-<h2 class="section-title">📐 Mathematics Lessons</h2>
+  <div class="lesson-content" id="motion">
+    <h3>Laws of Motion</h3>
+    <ul>
+      <li>Force causes change in motion.</li>
+      <li>First Law: Body remains in rest or motion unless external force acts.</li>
+      <li>Second Law: F = ma</li>
+      <li>Third Law: Every action has equal and opposite reaction.</li>
+      <li>Momentum p = mv</li>
+    </ul>
+  </div>
 
-<div class="card-grid">
-  <a href="#sets" class="card">Sets</a>
-  <a href="#real" class="card">Real Numbers</a>
-  <a href="#poly" class="card">Polynomials</a>
-  <a href="#ratio" class="card">Ratio & Proportion</a>
-  <a href="#linear" class="card">Linear Equations</a>
-  <a href="#finance" class="card">Financial Planning</a>
-  <a href="#statics" class="card">Statics</a>
-  <a href="#geometry" class="card">Geometry Basics</a>
-  <a href="#parallel" class="card">Parallel Lines</a>
-  <a href="#triangles" class="card">Triangles</a>
-  <a href="#construction" class="card">Construction</a>
-  <a href="#quad" class="card">Quadrilateral</a>
-  <a href="#circle" class="card">Circle</a>
-  <a href="#coordinate" class="card">Coordinate Geometry</a>
-  <a href="#trigo" class="card">Trigonometry</a>
-  <a href="#volume" class="card">Surface Area & Volume</a>
-</div>
+  <div class="lesson-content" id="energy">
+    <h3>Work and Energy</h3>
+    <ul>
+      <li>Work = Force × Displacement</li>
+      <li>Kinetic Energy = ½mv²</li>
+      <li>Potential Energy = mgh</li>
+      <li>Law of conservation of energy</li>
+    </ul>
+  </div>
 
-<!-- ================= SCIENCE CONTENT ================= -->
+  <div class="lesson-content" id="current">
+    <h3>Current Flow</h3>
+    <ul>
+      <li>Electric current is flow of charge</li>
+      <li>I = Q / t</li>
+      <li>SI unit: Ampere</li>
+    </ul>
+  </div>
 
-<h2 id="motion">Laws of Motion</h2>
-<ul>
-  <li>Force causes motion.</li>
-  <li>First Law: Inertia.</li>
-  <li>Second Law: F = ma</li>
-  <li>Third Law: Action = Reaction</li>
-</ul>
+  <div class="lesson-content" id="matter">
+    <h3>Measurement of Matter</h3>
+    <ul>
+      <li>Matter has mass and volume</li>
+      <li>Density = Mass / Volume</li>
+    </ul>
+  </div>
 
-<h2 id="energy">Work and Energy</h2>
-<ul>
-  <li>Work = Force × Displacement</li>
-  <li>KE = ½mv²</li>
-  <li>PE = mgh</li>
-</ul>
+  <div class="lesson-content" id="acids">
+    <h3>Acids, Bases and Salts</h3>
+    <ul>
+      <li>Acids turn blue litmus red</li>
+      <li>Bases turn red litmus blue</li>
+      <li>pH scale measures acidity</li>
+    </ul>
+  </div>
 
-<h2 id="current">Current Flow</h2>
-<ul>
-  <li>Current = Charge / Time</li>
-  <li>Unit: Ampere</li>
-</ul>
+  <div class="lesson-content" id="plants">
+    <h3>Classification of Plants</h3>
+    <ul>
+      <li>Based on structure and reproduction</li>
+      <li>Thallophyta, Bryophyta, Pteridophyta</li>
+    </ul>
+  </div>
 
-<h2 id="matter">Measurement of Matter</h2>
-<ul>
-  <li>Density = Mass / Volume</li>
-</ul>
+  <div class="lesson-content" id="ecosystem">
+    <h3>Energy Flow in Ecosystem</h3>
+    <ul>
+      <li>Energy flows Sun → Plants → Animals</li>
+      <li>10% energy law</li>
+    </ul>
+  </div>
 
-<h2 id="acids">Acids, Bases and Salts</h2>
-<ul>
-  <li>pH scale measures acidity</li>
-</ul>
+  <div class="lesson-content" id="microbes">
+    <h3>Useful and Harmful Microbes</h3>
+    <ul>
+      <li>Useful: curd, medicine</li>
+      <li>Harmful: diseases</li>
+    </ul>
+  </div>
 
-<h2 id="plants">Classification of Plants</h2>
-<ul>
-  <li>Thallophyta, Bryophyta, Pteridophyta</li>
-</ul>
+  <div class="lesson-content" id="environment">
+    <h3>Environmental Science</h3>
+    <ul>
+      <li>Air, water, soil form environment</li>
+      <li>Pollution harms life</li>
+    </ul>
+  </div>
 
-<h2 id="ecosystem">Energy Flow in Ecosystem</h2>
-<ul>
-  <li>10% energy transfer rule</li>
-</ul>
+  <div class="lesson-content" id="light">
+    <h3>Reflection of Light</h3>
+    <ul>
+      <li>Angle of incidence = angle of reflection</li>
+    </ul>
+  </div>
 
-<h2 id="microbes">Useful and Harmful Microbes</h2>
-<ul>
-  <li>Vaccines prevent diseases</li>
-</ul>
+  <div class="lesson-content" id="sound">
+    <h3>Study of Sound</h3>
+    <ul>
+      <li>Sound is produced by vibrations</li>
+      <li>Frequency → pitch</li>
+    </ul>
+  </div>
 
-<h2 id="environment">Environmental Science</h2>
-<ul>
-  <li>Pollution affects environment</li>
-</ul>
+  <div class="lesson-content" id="life">
+    <h3>Life Processes</h3>
+    <ul>
+      <li>Nutrition, respiration, excretion</li>
+    </ul>
+  </div>
 
-<h2 id="light">Reflection of Light</h2>
-<ul>
-  <li>Angle of incidence = reflection</li>
-</ul>
+  <div class="lesson-content" id="heredity">
+    <h3>Heredity and Variations</h3>
+    <ul>
+      <li>Traits pass from parents</li>
+      <li>Variations cause evolution</li>
+    </ul>
+  </div>
 
-<h2 id="sound">Study of Sound</h2>
-<ul>
-  <li>Frequency → Pitch</li>
-</ul>
+  <div class="lesson-content" id="biotech">
+    <h3>Introduction to Biotechnology</h3>
+    <ul>
+      <li>Use of organisms for useful products</li>
+    </ul>
+  </div>
 
-<h2 id="life">Life Processes</h2>
-<ul>
-  <li>Nutrition, Respiration, Excretion</li>
-</ul>
+  <div class="lesson-content" id="space">
+    <h3>Observing Space – Telescope</h3>
+    <ul>
+      <li>Used to study distant objects</li>
+    </ul>
+  </div>
 
-<h2 id="heredity">Heredity and Variations</h2>
-<ul>
-  <li>Traits pass genetically</li>
-</ul>
+  <!-- ================= MATHS ================= -->
+  <h2 class="section-title">📐 Mathematics Lessons</h2>
 
-<h2 id="bio">Biotechnology</h2>
-<ul>
-  <li>Used in medicine & agriculture</li>
-</ul>
+  <div class="card-grid">
+    <button class="card" onclick="showLesson('sets')">Sets</button>
+    <button class="card" onclick="showLesson('real')">Real Numbers</button>
+    <button class="card" onclick="showLesson('poly')">Polynomials</button>
+    <button class="card" onclick="showLesson('ratio')">Ratio & Proportion</button>
+    <button class="card" onclick="showLesson('linear')">Linear Equations</button>
+    <button class="card" onclick="showLesson('trigo')">Trigonometry</button>
+    <button class="card" onclick="showLesson('surface')">Surface Area & Volume</button>
+  </div>
 
-<h2 id="space">Space Telescope</h2>
-<ul>
-  <li>Observe distant galaxies</li>
-</ul>
+  <div class="lesson-content" id="sets">
+    <h3>Sets</h3>
+    <ul>
+      <li>Collection of well-defined objects</li>
+    </ul>
+  </div>
 
-<!-- ================= MATHS CONTENT ================= -->
+  <div class="lesson-content" id="real">
+    <h3>Real Numbers</h3>
+    <ul>
+      <li>Rational and irrational numbers</li>
+    </ul>
+  </div>
 
-<h2 id="sets">Sets</h2>
-<ul><li>Collection of objects</li></ul>
+  <div class="lesson-content" id="poly">
+    <h3>Polynomials</h3>
+    <ul>
+      <li>Degree = highest power</li>
+    </ul>
+  </div>
 
-<h2 id="real">Real Numbers</h2>
-<ul><li>Rational & Irrational</li></ul>
+  <div class="lesson-content" id="ratio">
+    <h3>Ratio and Proportion</h3>
+    <ul>
+      <li>Comparison of quantities</li>
+    </ul>
+  </div>
 
-<h2 id="poly">Polynomials</h2>
-<ul><li>Degree = highest power</li></ul>
+  <div class="lesson-content" id="linear">
+    <h3>Linear Equations</h3>
+    <ul>
+      <li>ax + by + c = 0</li>
+    </ul>
+  </div>
 
-<h2 id="ratio">Ratio & Proportion</h2>
-<ul><li>Comparison of quantities</li></ul>
+  <div class="lesson-content" id="trigo">
+    <h3>Trigonometry</h3>
+    <ul>
+      <li>sinθ, cosθ, tanθ</li>
+    </ul>
+  </div>
 
-<h2 id="linear">Linear Equations</h2>
-<ul><li>ax + by + c = 0</li></ul>
-
-<h2 id="finance">Financial Planning</h2>
-<ul><li>Savings are important</li></ul>
-
-<h2 id="statics">Statics</h2>
-<ul><li>Forces in equilibrium</li></ul>
-
-<h2 id="geometry">Basic Geometry</h2>
-<ul><li>Point, Line, Plane</li></ul>
-
-<h2 id="parallel">Parallel Lines</h2>
-<ul><li>Never intersect</li></ul>
-
-<h2 id="triangles">Triangles</h2>
-<ul><li>Angle sum = 180°</li></ul>
-
-<h2 id="construction">Construction</h2>
-<ul><li>Compass & ruler</li></ul>
-
-<h2 id="quad">Quadrilateral</h2>
-<ul><li>4-sided figure</li></ul>
-
-<h2 id="circle">Circle</h2>
-<ul><li>Radius, Diameter</li></ul>
-
-<h2 id="coordinate">Coordinate Geometry</h2>
-<ul><li>(x, y) plane</li></ul>
-
-<h2 id="trigo">Trigonometry</h2>
-<ul><li>sin, cos, tan</li></ul>
-
-<h2 id="volume">Surface Area & Volume</h2>
-<ul><li>Cube, Cylinder formulas</li></ul>
+  <div class="lesson-content" id="surface">
+    <h3>Surface Area and Volume</h3>
+    <ul>
+      <li>Cube = a³</li>
+      <li>Cylinder = πr²h</li>
+    </ul>
+  </div>
 
 </main>
 
 <a href="index.html" class="back-btn">⬅ Back to Home</a>
+
+<script>
+  function showLesson(id) {
+    const lessons = document.querySelectorAll('.lesson-content');
+    lessons.forEach(l => l.style.display = 'none');
+    document.getElementById(id).style.display = 'block';
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }
+</script>
 
 </body>
   </html>
