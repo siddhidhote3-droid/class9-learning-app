@@ -1,40 +1,68 @@
-<main class="portfolio-hero">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Class 9 Learning App</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <h1 class="hero-name">
-    Class 9 <span>Learning App</span>
-  </h1>
+    <!-- CSS LINK (MOST IMPORTANT) -->
+    <link rel="stylesheet" href="style.css">
 
-  <p class="hero-tagline">
-    State Board • Smart Study • Academic Projects
-  </p>
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
 
-  <h2 class="section-title">
-    Learning Modules
-    <span></span>
-  </h2>
+<body>
 
-  <div class="portfolio-cards">
+    <!-- ===== HERO SECTION ===== -->
+    <section class="hero">
+        <h1>Class <span>9</span> Learning App</h1>
+        <p>State Board • Smart Study • Academic Excellence</p>
+    </section>
 
-    <a href="notes.html" class="p-card">
-      <h3>Notes</h3>
-      <p>Structured chapter-wise study material</p>
-    </a>
+    <!-- ===== MAIN CONTAINER ===== -->
+    <section class="container">
 
-    <a href="practical.html" class="p-card">
-      <h3>Practicals</h3>
-      <p>Science & Mathematics practical records</p>
-    </a>
+        <h2 class="section-title">Learning Modules</h2>
 
-    <a href="projects.html" class="p-card">
-      <h3>Projects</h3>
-      <p>Professional academic projects</p>
-    </a>
+        <div class="card-grid">
 
-    <a href="about.html" class="p-card">
-      <h3>About</h3>
-      <p>Purpose, technology & developer details</p>
-    </a>
+            <!-- NOTES -->
+            <a href="notes.html" class="card">
+                <div class="icon">📘</div>
+                <h3>Notes</h3>
+                <p>Chapter-wise structured notes for Science & Maths.</p>
+            </a>
 
-  </div>
+            <!-- PRACTICALS -->
+            <a href="practical.html" class="card">
+                <div class="icon">🧪</div>
+                <h3>Practicals</h3>
+                <p>Complete science & maths practical records.</p>
+            </a>
 
-</main>
+            <!-- PROJECTS -->
+            <a href="projects.html" class="card">
+                <div class="icon">📂</div>
+                <h3>Projects</h3>
+                <p>Professional academic & research-based projects.</p>
+            </a>
+
+            <!-- ABOUT -->
+            <a href="about.html" class="card">
+                <div class="icon">👩‍💻</div>
+                <h3>About</h3>
+                <p>Purpose, technology & developer information.</p>
+            </a>
+
+        </div>
+
+    </section>
+
+    <!-- ===== FOOTER ===== -->
+    <footer>
+        <p>© 2026 | Designed & Developed by <strong>Siddhi Dhote</strong></p>
+    </footer>
+
+</body>
+  </html>
