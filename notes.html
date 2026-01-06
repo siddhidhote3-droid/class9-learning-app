@@ -11,232 +11,291 @@
 
 <header class="hero">
   <h1>Class <span>9</span> Notes</h1>
-  <p>State Board • Detailed Theory • Formulas</p>
+  <p>State Board • Science & Mathematics</p>
 </header>
 
 <main class="container">
 
-  <!-- ================= SCIENCE BUTTONS ================= -->
-  <h2 class="section-title">🔬 Science Lessons</h2>
+<!-- ================= SCIENCE ================= -->
+<h2 class="section-title">🔬 Science</h2>
 
-  <div class="card-grid">
-    <button class="card" onclick="showLesson('motion')">Laws of Motion</button>
-    <button class="card" onclick="showLesson('energy')">Work & Energy</button>
-    <button class="card" onclick="showLesson('current')">Current Flow</button>
-    <button class="card" onclick="showLesson('matter')">Measurement of Matter</button>
-    <button class="card" onclick="showLesson('acids')">Acids, Bases & Salts</button>
-    <button class="card" onclick="showLesson('plants')">Classification of Plants</button>
-    <button class="card" onclick="showLesson('ecosystem')">Energy Flow in Ecosystem</button>
-    <button class="card" onclick="showLesson('microbes')">Useful & Harmful Microbes</button>
-    <button class="card" onclick="showLesson('environment')">Environmental Science</button>
-    <button class="card" onclick="showLesson('light')">Reflection of Light</button>
-    <button class="card" onclick="showLesson('sound')">Study of Sound</button>
-    <button class="card" onclick="showLesson('life')">Life Processes</button>
-    <button class="card" onclick="showLesson('heredity')">Heredity & Variations</button>
-    <button class="card" onclick="showLesson('biotech')">Biotechnology</button>
-    <button class="card" onclick="showLesson('space')">Space Telescope</button>
+<div class="accordion">
+
+  <!-- 1 -->
+  <div class="item">
+    <button class="lesson-btn" onclick="toggle(this)">Laws of Motion</button>
+    <div class="lesson-notes">
+      <ul>
+        <li>Force causes change in motion.</li>
+        <li>First Law: Body remains at rest or uniform motion.</li>
+        <li>Second Law: F = ma</li>
+        <li>Third Law: Action = Reaction</li>
+        <li>Momentum = mv</li>
+      </ul>
+    </div>
   </div>
 
-  <!-- ================= SCIENCE CONTENT ================= -->
-
-  <div class="lesson-content" id="motion">
-    <h3>Laws of Motion</h3>
-    <ul>
-      <li>Force causes change in motion.</li>
-      <li>First Law: Body remains in rest or motion unless external force acts.</li>
-      <li>Second Law: F = ma</li>
-      <li>Third Law: Every action has equal and opposite reaction.</li>
-      <li>Momentum p = mv</li>
-    </ul>
+  <!-- 2 -->
+  <div class="item">
+    <button class="lesson-btn" onclick="toggle(this)">Work and Energy</button>
+    <div class="lesson-notes">
+      <ul>
+        <li>Work = Force × Displacement</li>
+        <li>Kinetic Energy = ½mv²</li>
+        <li>Potential Energy = mgh</li>
+        <li>Law of conservation of energy</li>
+      </ul>
+    </div>
   </div>
 
-  <div class="lesson-content" id="energy">
-    <h3>Work and Energy</h3>
-    <ul>
-      <li>Work = Force × Displacement</li>
-      <li>Kinetic Energy = ½mv²</li>
-      <li>Potential Energy = mgh</li>
-      <li>Law of conservation of energy</li>
-    </ul>
+  <!-- 3 -->
+  <div class="item">
+    <button class="lesson-btn" onclick="toggle(this)">Current Flow</button>
+    <div class="lesson-notes">
+      <ul>
+        <li>Electric current is flow of charge.</li>
+        <li>I = Q / t</li>
+        <li>Unit: Ampere</li>
+      </ul>
+    </div>
   </div>
 
-  <div class="lesson-content" id="current">
-    <h3>Current Flow</h3>
-    <ul>
-      <li>Electric current is flow of charge</li>
-      <li>I = Q / t</li>
-      <li>SI unit: Ampere</li>
-    </ul>
+  <!-- 4 -->
+  <div class="item">
+    <button class="lesson-btn" onclick="toggle(this)">Measurement of Matter</button>
+    <div class="lesson-notes">
+      <ul>
+        <li>Matter has mass and volume.</li>
+        <li>Density = Mass / Volume</li>
+      </ul>
+    </div>
   </div>
 
-  <div class="lesson-content" id="matter">
-    <h3>Measurement of Matter</h3>
-    <ul>
-      <li>Matter has mass and volume</li>
-      <li>Density = Mass / Volume</li>
-    </ul>
+  <!-- 5 -->
+  <div class="item">
+    <button class="lesson-btn" onclick="toggle(this)">Acids, Bases and Salts</button>
+    <div class="lesson-notes">
+      <ul>
+        <li>Acids turn blue litmus red.</li>
+        <li>Bases turn red litmus blue.</li>
+        <li>pH scale measures acidity.</li>
+      </ul>
+    </div>
   </div>
 
-  <div class="lesson-content" id="acids">
-    <h3>Acids, Bases and Salts</h3>
-    <ul>
-      <li>Acids turn blue litmus red</li>
-      <li>Bases turn red litmus blue</li>
-      <li>pH scale measures acidity</li>
-    </ul>
+  <!-- 6 -->
+  <div class="item">
+    <button class="lesson-btn" onclick="toggle(this)">Classification of Plants</button>
+    <div class="lesson-notes">
+      <ul>
+        <li>Plants classified based on structure.</li>
+        <li>Groups: Thallophyta, Bryophyta, Pteridophyta.</li>
+      </ul>
+    </div>
   </div>
 
-  <div class="lesson-content" id="plants">
-    <h3>Classification of Plants</h3>
-    <ul>
-      <li>Based on structure and reproduction</li>
-      <li>Thallophyta, Bryophyta, Pteridophyta</li>
-    </ul>
+  <!-- 7 -->
+  <div class="item">
+    <button class="lesson-btn" onclick="toggle(this)">Energy Flow in Ecosystem</button>
+    <div class="lesson-notes">
+      <ul>
+        <li>Energy flows Sun → Plants → Animals.</li>
+        <li>10% energy transfer rule.</li>
+      </ul>
+    </div>
   </div>
 
-  <div class="lesson-content" id="ecosystem">
-    <h3>Energy Flow in Ecosystem</h3>
-    <ul>
-      <li>Energy flows Sun → Plants → Animals</li>
-      <li>10% energy law</li>
-    </ul>
+  <!-- 8 -->
+  <div class="item">
+    <button class="lesson-btn" onclick="toggle(this)">Useful & Harmful Microbes</button>
+    <div class="lesson-notes">
+      <ul>
+        <li>Useful microbes help in food & medicine.</li>
+        <li>Harmful microbes cause diseases.</li>
+      </ul>
+    </div>
   </div>
 
-  <div class="lesson-content" id="microbes">
-    <h3>Useful and Harmful Microbes</h3>
-    <ul>
-      <li>Useful: curd, medicine</li>
-      <li>Harmful: diseases</li>
-    </ul>
+  <!-- 9 -->
+  <div class="item">
+    <button class="lesson-btn" onclick="toggle(this)">Environmental Science</button>
+    <div class="lesson-notes">
+      <ul>
+        <li>Environment includes air, water & soil.</li>
+        <li>Pollution harms environment.</li>
+      </ul>
+    </div>
   </div>
 
-  <div class="lesson-content" id="environment">
-    <h3>Environmental Science</h3>
-    <ul>
-      <li>Air, water, soil form environment</li>
-      <li>Pollution harms life</li>
-    </ul>
+  <!-- 10 -->
+  <div class="item">
+    <button class="lesson-btn" onclick="toggle(this)">Reflection of Light</button>
+    <div class="lesson-notes">
+      <ul>
+        <li>Light travels in straight line.</li>
+        <li>Angle of incidence = angle of reflection.</li>
+      </ul>
+    </div>
   </div>
 
-  <div class="lesson-content" id="light">
-    <h3>Reflection of Light</h3>
-    <ul>
-      <li>Angle of incidence = angle of reflection</li>
-    </ul>
+  <!-- 11 -->
+  <div class="item">
+    <button class="lesson-btn" onclick="toggle(this)">Study of Sound</button>
+    <div class="lesson-notes">
+      <ul>
+        <li>Sound produced by vibrations.</li>
+        <li>Frequency → pitch, Amplitude → loudness.</li>
+      </ul>
+    </div>
   </div>
 
-  <div class="lesson-content" id="sound">
-    <h3>Study of Sound</h3>
-    <ul>
-      <li>Sound is produced by vibrations</li>
-      <li>Frequency → pitch</li>
-    </ul>
+  <!-- 12 -->
+  <div class="item">
+    <button class="lesson-btn" onclick="toggle(this)">Life Processes in Living Organisms</button>
+    <div class="lesson-notes">
+      <ul>
+        <li>Nutrition, respiration, excretion.</li>
+        <li>Essential for survival.</li>
+      </ul>
+    </div>
   </div>
 
-  <div class="lesson-content" id="life">
-    <h3>Life Processes</h3>
-    <ul>
-      <li>Nutrition, respiration, excretion</li>
-    </ul>
+  <!-- 13 -->
+  <div class="item">
+    <button class="lesson-btn" onclick="toggle(this)">Heredity and Variations</button>
+    <div class="lesson-notes">
+      <ul>
+        <li>Traits passed from parents to offspring.</li>
+        <li>Variations cause evolution.</li>
+      </ul>
+    </div>
   </div>
 
-  <div class="lesson-content" id="heredity">
-    <h3>Heredity and Variations</h3>
-    <ul>
-      <li>Traits pass from parents</li>
-      <li>Variations cause evolution</li>
-    </ul>
+  <!-- 14 -->
+  <div class="item">
+    <button class="lesson-btn" onclick="toggle(this)">Introduction to Biotechnology</button>
+    <div class="lesson-notes">
+      <ul>
+        <li>Use of organisms for useful products.</li>
+        <li>Used in medicine & agriculture.</li>
+      </ul>
+    </div>
   </div>
 
-  <div class="lesson-content" id="biotech">
-    <h3>Introduction to Biotechnology</h3>
-    <ul>
-      <li>Use of organisms for useful products</li>
-    </ul>
+  <!-- 15 -->
+  <div class="item">
+    <button class="lesson-btn" onclick="toggle(this)">Observing Space – Telescope</button>
+    <div class="lesson-notes">
+      <ul>
+        <li>Used to observe distant celestial objects.</li>
+        <li>Collects and focuses light.</li>
+      </ul>
+    </div>
   </div>
 
-  <div class="lesson-content" id="space">
-    <h3>Observing Space – Telescope</h3>
-    <ul>
-      <li>Used to study distant objects</li>
-    </ul>
+</div>
+
+<!-- ================= MATHS ================= -->
+<h2 class="section-title">📐 Mathematics</h2>
+
+<div class="accordion">
+
+  <div class="item">
+    <button class="lesson-btn" onclick="toggle(this)">Sets</button>
+    <div class="lesson-notes">
+      <ul>
+        <li>Collection of well-defined objects.</li>
+        <li>Types: finite, infinite, empty set.</li>
+      </ul>
+    </div>
   </div>
 
-  <!-- ================= MATHS ================= -->
-  <h2 class="section-title">📐 Mathematics Lessons</h2>
-
-  <div class="card-grid">
-    <button class="card" onclick="showLesson('sets')">Sets</button>
-    <button class="card" onclick="showLesson('real')">Real Numbers</button>
-    <button class="card" onclick="showLesson('poly')">Polynomials</button>
-    <button class="card" onclick="showLesson('ratio')">Ratio & Proportion</button>
-    <button class="card" onclick="showLesson('linear')">Linear Equations</button>
-    <button class="card" onclick="showLesson('trigo')">Trigonometry</button>
-    <button class="card" onclick="showLesson('surface')">Surface Area & Volume</button>
+  <div class="item">
+    <button class="lesson-btn" onclick="toggle(this)">Real Numbers</button>
+    <div class="lesson-notes">
+      <ul>
+        <li>Rational & irrational numbers.</li>
+        <li>Euclid’s division lemma.</li>
+      </ul>
+    </div>
   </div>
 
-  <div class="lesson-content" id="sets">
-    <h3>Sets</h3>
-    <ul>
-      <li>Collection of well-defined objects</li>
-    </ul>
+  <div class="item">
+    <button class="lesson-btn" onclick="toggle(this)">Polynomials</button>
+    <div class="lesson-notes">
+      <ul>
+        <li>Polynomial has variables & coefficients.</li>
+        <li>Degree = highest power.</li>
+      </ul>
+    </div>
   </div>
 
-  <div class="lesson-content" id="real">
-    <h3>Real Numbers</h3>
-    <ul>
-      <li>Rational and irrational numbers</li>
-    </ul>
+  <div class="item">
+    <button class="lesson-btn" onclick="toggle(this)">Ratio and Proportion</button>
+    <div class="lesson-notes">
+      <ul>
+        <li>Ratio compares quantities.</li>
+        <li>Proportion shows equality.</li>
+      </ul>
+    </div>
   </div>
 
-  <div class="lesson-content" id="poly">
-    <h3>Polynomials</h3>
-    <ul>
-      <li>Degree = highest power</li>
-    </ul>
+  <div class="item">
+    <button class="lesson-btn" onclick="toggle(this)">Linear Equations in Two Variables</button>
+    <div class="lesson-notes">
+      <ul>
+        <li>ax + by + c = 0</li>
+        <li>Graph is straight line.</li>
+      </ul>
+    </div>
   </div>
 
-  <div class="lesson-content" id="ratio">
-    <h3>Ratio and Proportion</h3>
-    <ul>
-      <li>Comparison of quantities</li>
-    </ul>
+  <div class="item">
+    <button class="lesson-btn" onclick="toggle(this)">Financial Planning</button>
+    <div class="lesson-notes">
+      <ul>
+        <li>Income, expenditure & savings.</li>
+        <li>Helps future security.</li>
+      </ul>
+    </div>
   </div>
 
-  <div class="lesson-content" id="linear">
-    <h3>Linear Equations</h3>
-    <ul>
-      <li>ax + by + c = 0</li>
-    </ul>
+  <div class="item">
+    <button class="lesson-btn" onclick="toggle(this)">Trigonometry</button>
+    <div class="lesson-notes">
+      <ul>
+        <li>sinθ = P/H</li>
+        <li>cosθ = B/H</li>
+        <li>tanθ = P/B</li>
+      </ul>
+    </div>
   </div>
 
-  <div class="lesson-content" id="trigo">
-    <h3>Trigonometry</h3>
-    <ul>
-      <li>sinθ, cosθ, tanθ</li>
-    </ul>
+  <div class="item">
+    <button class="lesson-btn" onclick="toggle(this)">Surface Area and Volume</button>
+    <div class="lesson-notes">
+      <ul>
+        <li>Cube = a³</li>
+        <li>Cuboid = l × b × h</li>
+        <li>Cylinder = πr²h</li>
+      </ul>
+    </div>
   </div>
 
-  <div class="lesson-content" id="surface">
-    <h3>Surface Area and Volume</h3>
-    <ul>
-      <li>Cube = a³</li>
-      <li>Cylinder = πr²h</li>
-    </ul>
-  </div>
+</div>
 
 </main>
 
 <a href="index.html" class="back-btn">⬅ Back to Home</a>
 
 <script>
-  function showLesson(id) {
-    const lessons = document.querySelectorAll('.lesson-content');
-    lessons.forEach(l => l.style.display = 'none');
-    document.getElementById(id).style.display = 'block';
-    window.scrollTo({ top: 0, behavior: 'smooth' });
-  }
+function toggle(btn) {
+  const notes = btn.nextElementSibling;
+  const all = document.querySelectorAll('.lesson-notes');
+  all.forEach(n => { if (n !== notes) n.style.display = "none"; });
+  notes.style.display = notes.style.display === "block" ? "none" : "block";
+}
 </script>
 
 </body>
-  </html>
+                                   </html>
